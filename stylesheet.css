@@ -1,0 +1,742 @@
+     body {
+            color: #1d2129;
+            line-height: 1.34;
+            margin: 0;
+            padding: 0;
+        }
+
+        body, button, input, label, select, td, textarea {
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 12px;
+        }
+
+        h1, h3, h4, h5, h6 {
+            color: #1d2129;
+            font-size: 13px;
+            margin: 0;
+            padding: 0;
+        }
+
+        p {
+            margin: 1em 7em;
+            color: #4e4848;
+            font-size: 14px;
+        }
+
+        a {
+            color: #de8091;
+            cursor: pointer;
+            text-decoration: none;
+
+        }
+
+
+      
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        hr {
+            background: #d9d9d9;
+            border-width: 0;
+            color: #d9d9d9;
+            height: 1px;
+        }
+
+
+        .clearfix:after {
+            clear: both;
+            content: ".";
+            display: block;
+            font-size: 0;
+            height: 0;
+            line-height: 0;
+            visibility: hidden;
+        }
+
+        .clearfix {
+            zoom: 1;
+        }
+
+
+        ._2ltu ._4-u2 {
+            border: 1px solid #dddfe2;
+        }
+
+
+
+        ._28xh ._54nh {
+            line-height: 15px;
+            padding-left: 20px;
+        }
+
+
+        #fbProfileCover, #pagelet_above_header_timeline {
+            margin: -1px -1px 0;
+        }
+
+        #pagelet_above_header_timeline {
+            margin-left: 0;
+            margin-right: 0;
+            position: relative;
+            z-index: 1;
+        }
+
+
+        #fbProfileCover .cover {
+            display: block;
+            position: relative;
+        }
+
+        #fbProfileCover .coverWrap {
+            display: block;
+            position: relative;
+            height: 315px;
+            overflow: hidden;
+            text-decoration: none;
+        }
+
+
+
+        #fbTimelineHeadline {
+            min-height: 47px;
+            position: relative;
+            width: 100%;
+            z-index: 4;
+        }
+
+            #fbTimelineHeadline .profilePicThumb {
+                background: rgba(0, 0, 0, .3);
+                border-radius: 3px;
+                box-shadow: 0 1px 1px rgba(0, 0, 0, .07);
+                display: block;
+                left: 23px;
+                margin-top: -121px;
+                padding: 1px;
+                position: absolute;
+            }
+
+        .pagesTimelineLayout #fbTimelineHeadline .profilePicThumb {
+            margin-top: -104px;
+        }
+
+        #fbTimelineHeadline a.profilePicThumb:hover {
+            border-color: #365899;
+        }
+
+
+        #fbTimelineHeadline .profilePicThumb .img {
+            display: block;
+        }
+
+        #fbTimelineHeadline .leftPic, #fbTimelineHeadline .rightPic {
+            background-color: #fff;
+            border: 4px solid #fff;
+            height: 160px;
+            width: 83px;
+        }
+
+        #fbTimelineHeadline .leftPic {
+            border-right: 2px solid #fff;
+            border-radius: 2px 0 0 2px;
+        }
+
+        #fbTimelineHeadline .rightPic {
+            border-radius: 0 2px 2px 0;
+        }
+
+        #fbTimelineHeadline .profilePic, #fbTimelineHeadline .newProfilePic {
+            background-color: #fff;
+            border: 4px solid #fff;
+            border-radius: 2px;
+        }
+
+        #fbTimelineHeadline .profilePic {
+            height: 160px;
+            width: 160px;
+        }
+
+        #fbTimelineHeadline.newProfilePic {
+            height: 80px;
+            width: 80px;
+        }
+
+        #fbTimelineHeadline .rightPic {
+            border-left: 1px solid #fff;
+        }
+
+        #fbTimelineHeadline h2 {
+            bottom: 50px;
+            color: #162643;
+            font-size: 20px;
+            overflow: hidden;
+            color: #7daf7d;
+            margin: 16px 0 0 206px;
+        }
+
+            #fbTimelineHeadline h2 a {
+                color: #162643;
+            }
+
+            #fbTimelineHeadline h2 .fcg a {
+                color: #365899;
+            }
+
+                #fbTimelineHeadline h2 .fcg a.uiLinkSubtle {
+                    color: #90949c;
+                }
+
+            #fbTimelineHeadline h2.friendship {
+                margin-left: 214px;
+            }
+
+        #fbTimelineHeadline .alternate_name {
+            color: #7f7f7f;
+            font-weight: normal;
+            white-space: nowrap;
+        }
+
+        #fbTimelineHeadline .actionsDropdown {
+            display: inline-block;
+        }
+
+        ._2nlv {
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 24px;
+            -webkit-font-smoothing: antialiased;
+            font-weight: 500;
+            line-height: 30px;
+            max-width: 275px;
+            position: relative;
+        }
+
+        .fbEditCover ._2nlv, ._3y4k ._2nlv {
+            display: none;
+        }
+
+        ._2nlv .alternate_name {
+            float: left;
+            font-size: 20px;
+            font-weight: normal;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 280px;
+        }
+
+        .nameBold {
+            font-weight: bold;
+            letter-spacing: 0;
+        }
+
+        ._2nlw {
+            padding-right: 30px;
+        }
+
+            ._2nlw:hover {
+                text-decoration: none;
+            }
+
+        ._2nlx {
+            position: relative;
+            right: 30px;
+        }
+
+        ._2nly {
+            position: absolute;
+            white-space: nowrap;
+        }
+
+        ._2nlz {
+            display: inline-block;
+            opacity: 0;
+            width: 0;
+        }
+
+            ._2nlz:focus, ._2nlv:hover ._2nlz {
+                opacity: 1;
+                padding: 0 4px;
+                width: auto;
+            }
+
+        ._2nlw, ._2nl-, ._2nlv .alternate_name {
+            color: #fff;
+            text-rendering: optimizelegibility;
+            text-shadow: 0 0 3px rgba(0,0,0,.8);
+        }
+
+        ._3x7_ ._2nlw, ._3x7_ .alternate_name {
+            text-shadow: 0 0 3px rgba(0, 0, 0, .4);
+        }
+
+        ._2nl- {
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 24px;
+        }
+
+        ._2nm9 {
+            max-width: 340px;
+        }
+
+            ._2nm9 .alternate_name {
+                float: none;
+            }
+
+        ._2nma {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            line-height: 20px;
+            text-shadow: 0 0 3px rgba(0, 0, 0, .4);
+        }
+
+            ._2nma ._2nlw {
+                letter-spacing: 0;
+            }
+
+        ._2nmb {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 20px;
+            text-shadow: 0 0 3px rgba(0, 0, 0, .4);
+        }
+
+            ._2nmb ._2nlw {
+                letter-spacing: 0;
+            }
+
+
+        html ._4b0l {
+            clear: left;
+            margin-left: 0;
+        }
+
+        ._3a_t {
+            width: 496px;
+        }
+
+        ._6-d {
+            position: relative;
+        }
+
+        ._529n {
+            overflow: hidden;
+        }
+
+        ._6-d #fbProfileCover .coverNoImage, ._6-d #fbProfileCover .coverBorder {
+            background: url(/rsrc.php/v3/yY/r/nSlaHBdwDcH.png) bottom left repeat-x;
+            border-bottom-color: rgba(0, 0, 0, .4);
+        }
+
+        .webkit ._6-d #fbProfileCover .coverNoImage, .webkit ._6-d #fbProfileCover .coverBorder {
+            background: linear-gradient(rgba(0,0,0,0) 71%, rgba(0,0,0, .53));
+        }
+
+        ._6-d #fbTimelineHeadline {
+            min-height: 41px;
+        }
+
+        html ._6-d .section {
+            border: 1px solid #d3d6db;
+            border-radius: 0 0 3px 3px;
+        }
+
+        html ._6-d .hasPendingRequest, html ._6-d .hasPendingRequest .coverImage {
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+        }
+
+        ._6-d #fbTimelineHeadline .profilePicThumb {
+            box-shadow: none;
+            left: 15px;
+            margin-top: 0;
+            top: -143px;
+        }
+
+        ._6-d #fbProfileCover .fbTimelineProfilePicSelector {
+            bottom: 30px;
+            left: 15px;
+            text-align: center;
+            top: auto;
+            width: 170px;
+        }
+
+        ._6-d #fbProfileCover .fbTimelineSelector .fbTimelineSelectorButton {
+            height: auto;
+        }
+
+        ._6-d #fbProfileCover .fbTimelineSelector .uiButtonText {
+            max-width: 137px;
+        }
+
+        ._6-d .photoContainer .uiMenu {
+            text-align: left;
+        }
+
+        ._6-d #fbProfileCover .fbProfileCoverPhotoSelector {
+            bottom: 121px;
+            right: 15px;
+        }
+
+        html #fbTimelineHeadline ._70j {
+            bottom: 15px;
+            padding: 0;
+            position: absolute;
+            right: 15px;
+            width: 360px;
+        }
+
+        ._3y4k ._70j {
+            display: none;
+        }
+
+        ._50zj {
+            position: absolute;
+            width: 100%;
+        }
+
+        #fbTimelineHeadline ._70j .uiButtonGroup {
+            margin-top: 15px;
+            vertical-align: bottom;
+        }
+
+        ._6-d #fbProfileCover .coverNoImage {
+            background-color: #d5d6d9;
+            border: none;
+            height: 160px;
+            position: relative;
+        }
+
+            ._6-d #fbProfileCover .coverNoImage::before {
+                border: 1px solid rgba(0, 0, 0, .1);
+                bottom: 0;
+                content: '';
+                left: 0;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+        ._6-d._6-d #fbProfileCover ._37fg {
+            background-color: #1d2129;
+            background-image: none;
+            height: 205px;
+        }
+
+        ._6-d .fbEditCover .profilePicNotch {
+            left: 15px;
+            top: 173px;
+        }
+
+        ._6-d ._3y4k .photoContainer {
+            display: none;
+        }
+
+        ._6-d .fbEditCover .notchInner {
+            height: 141px;
+        }
+
+        ._6-d .fbEditCover .coverEditor {
+            padding: 9px 10px;
+        }
+
+        ._70k._70k {
+            clear: right;
+            padding-left: 201px;
+            width: 649px;
+        }
+
+        ._g-9 {
+            margin-bottom: -3px;
+        }
+
+        ._70k ._4sl- {
+            color: #365899;
+            font-weight: bold;
+        }
+
+        ._2xc6 {
+            bottom: 12px;
+            left: 201px;
+            position: absolute;
+        }
+
+        ._6_7 {
+            border-left: 1px solid #e9eaed;
+        }
+
+        ._529n ._6_7:only-child {
+            width: 99999px;
+        }
+
+        ._6-6 {
+            border-right: 1px solid #e9eaed;
+            float: left;
+            font-size: 14px;
+            font-weight: bold;
+            height: 43px;
+            line-height: 3.05;
+            padding: 0 17px;
+            position: relative;
+            vertical-align: middle;
+            white-space: nowrap;
+        }
+
+        ._513x {
+            background-image: url(/rsrc.php/v3/yq/r/G0AmXRqbMAF.png);
+            background-repeat: no-repeat;
+            background-size: 26px 197px;
+            background-position: 0 -51px;
+            bottom: -1px;
+            display: none;
+            height: 9px;
+            left: 50%;
+            margin-left: -8px;
+            position: absolute;
+            width: 17px;
+        }
+
+        ._6-6:hover, ._9rx.openToggler, ._9ry:hover, html ._9rw._54ne ._54nc {
+            background: #f6f7f9;
+            text-decoration: none;
+        }
+
+        ._6-7 {
+            border-width: 0 1px;
+            color: #4b4f56;
+        }
+
+            ._6-7:hover {
+                background: #fff;
+                cursor: default;
+            }
+
+            ._6-7 ._513x {
+                display: block;
+            }
+
+        ._9rv {
+            margin-left: -1px;
+            min-width: 83px;
+        }
+
+        .webkit ._9rv {
+            padding-top: 1px;
+        }
+
+        div._9rv ._54nf {
+            padding: 6px 0;
+        }
+
+        div._9rv ._54ng {
+            border: 1px solid #d3d6db;
+        }
+
+        div._9rv ._9rw ._54nc {
+            border: 0;
+            color: #3b5998;
+            display: block;
+            font-size: 11px;
+            -webkit-font-smoothing: auto;
+            font-weight: normal;
+            line-height: 23px;
+            padding: 0 17px;
+            white-space: nowrap;
+        }
+
+        ._9rx {
+            padding: 0;
+        }
+
+        ._9ry {
+            display: block;
+            padding: 0 17px;
+        }
+
+        ._bxy {
+            margin-left: 7px;
+            position: relative;
+            top: -2px;
+        }
+
+        ._gs6 {
+            color: #89919c;
+            font-size: 11px;
+            font-weight: normal;
+            padding-left: 6px;
+        }
+
+        ._5215 ._gs6 {
+            display: none;
+        }
+
+        ._35ow {
+            padding-right: 12px;
+            vertical-align: middle;
+        }
+
+
+        ._5ycb .uiPopover {
+            display: block;
+        }
+
+        .pagesTimelineLayout #fbProfileCover ._5ycb ._23fv {
+            left: 28px;
+            text-align: center;
+            top: -22px;
+        }
+
+        ._156n {
+            display: block;
+            overflow: hidden;
+            position: relative;
+            text-align: left;
+        }
+
+            ._156n a {
+                color: #fff;
+                display: block;
+            }
+
+                ._156n a:hover {
+                    text-decoration: none;
+                }
+
+        ._156p {
+            -webkit-font-smoothing: antialiased;
+            font-weight: 700;
+            max-width: 120px;
+            padding: 10px 12px 10px 35px;
+        }
+
+        ._156q {
+            bottom: 50%;
+            left: 11px;
+            margin-bottom: -10px;
+            position: absolute;
+        }
+
+        ._1din, ._3qpg, ._daf {
+            opacity: .7;
+        }
+
+        ._1din {
+            left: 5px;
+            margin-bottom: -15px;
+        }
+
+        ._dag {
+            -webkit-font-smoothing: antialiased;
+            font-weight: 700;
+            padding: 5px 12px 10px 35px;
+        }
+
+        ._3qpg {
+            left: 8px;
+            position: absolute;
+            top: 10px;
+        }
+
+        ._daf {
+            position: relative;
+            top: 5px;
+        }
+
+        ._3qph {
+            position: relative;
+        }
+
+            ._3qph:before {
+                background-color: #d9d9d9;
+                bottom: 0;
+                color: #d9d9d9;
+                content: '';
+                height: 1px;
+                left: 10px;
+                position: absolute;
+                width: 140px;
+            }
+
+        ._156o {
+            background-color: #000;
+            background-color: rgba(0, 0, 0, .6);
+            transition: background-color .13s ease-out;
+        }
+
+            ._5-3g ._156o, ._156o:hover {
+                background-color: #000;
+            }
+
+        ._23fw:before, ._23fw:after {
+            background: #000;
+            background: rgba(0, 0, 0, .6);
+            background: linear-gradient(transparent, rgba(0, 0, 0, .6) 50%, rgba(0, 0, 0, .6) 100%);
+            content: '';
+            height: 200%;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 100%;
+            transition: top .13s ease-out;
+            z-index: -1;
+        }
+
+        ._5ycb:hover._3ivw ._23fw:before, ._5ycb:hover._3ivw ._23fw:after {
+            top: 100%;
+        }
+
+        ._5ycb ._23fw:hover:before, ._5ycb:hover ._23fw:after, ._5ycb .openToggler ._23fw:after, ._5-3g ._23fw:after {
+            top: -100%;
+        }
+
+        ._3qpg, ._23fw ._156p, ._5ycb:hover._3ivw ._156p, ._3qph {
+            opacity: 0;
+            transition: opacity .13s ease-out;
+        }
+
+        ._5ycb:hover ._156p, ._5ycb:hover ._3qph, ._5-3g ._156p, ._5-3g ._3qph, ._5ycb .openToggler ._156p {
+            opacity: 1;
+        }
+
+        ._5-3g ._3qpg, ._5ycb:hover ._3qpg {
+            opacity: .9;
+        }
+
+        ._5ycb:hover._3ivw ._23fw ._1din, ._23fw ._156q {
+            bottom: 23px;
+            opacity: 1;
+            transform: none;
+        }
+
+   
+        .timelineLayout {
+            background: #fff0f2;
+        }
+
+   
+
+            .timelineLayout #contentArea {
+                position: relative;
+                width: 851px !important;
+            }
+
+            .timelineLayout #contentCol {
+                background: none;
+                padding-top: 0;
+            }
+
+
+        
+            .timelineLayout #contentCurve {
+                background-color: transparent;
+            }
+
+        .section {
+            background: whitesmoke;
+        }
+
