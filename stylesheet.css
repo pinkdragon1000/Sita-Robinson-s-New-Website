@@ -487,34 +487,13 @@
             white-space: nowrap;
         }
 
-        ._513x {
-            background-image: url(/rsrc.php/v3/yq/r/G0AmXRqbMAF.png);
-            background-repeat: no-repeat;
-            background-size: 26px 197px;
-            background-position: 0 -51px;
-            bottom: -1px;
-            display: none;
-            height: 9px;
-            left: 50%;
-            margin-left: -8px;
-            position: absolute;
-            width: 17px;
-        }
-
-        ._6-6:hover, ._9rx.openToggler, ._9ry:hover, html ._9rw._54ne ._54nc {
-            background: #f6f7f9;
-            text-decoration: none;
-        }
-
         ._6-7 {
             border-width: 0 1px;
             color: #4b4f56;
+            background-color: #d7ead6;
         }
 
-            ._6-7:hover {
-                background: #fff;
-                cursor: default;
-            }
+
 
             ._6-7 ._513x {
                 display: block;
