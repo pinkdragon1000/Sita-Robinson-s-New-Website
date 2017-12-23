@@ -226,7 +226,9 @@
 <div id="Photos" class="tabcontent">
      <div class="border">
                             <div>
-                                <h2> Photos </h2>
+                     <div class="_4-u2">
+                           <h2 style="text-align:center">My Photos</h2>
+
 <div class="row">
   <div class="column">
     <img src="pinecone.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
@@ -262,48 +264,48 @@
 
     <div class="mySlides">
       <center>
-      <img src="pinecone.jpg" style="width:50%; height: 30%;">
+      <img src="pinecone.jpg" style="width:50%;">
       </center>
     </div>
 
     <div class="mySlides">
       <center>
-      <img src="wall.jpg" style="width:50%; height: 30%;">
+      <img src="wall.jpg" style="width:50%;">
       </center>
     </div>
 
      <div class="mySlides">
       <center>
-      <img src="plant.jpg" style="width:50%; height: 30%;">
+      <img src="plant.jpg" style="width:50%;">
       </center>
     </div>
     <div class="mySlides">
       <center>
-      <img src="bird.jpg" style="width:50%; height: 30%;">
-      </center>
-    </div>
-
-    <div class="mySlides">
-      <center>
-      <img src="centercity.jpg" style="width:50%; height: 30%;">
+      <img src="bird.jpg" style="width:50%; ">
       </center>
     </div>
 
     <div class="mySlides">
       <center>
-      <img src="rockstructure.jpg" style="width:50%; height: 30%;">
+      <img src="centercity.jpg" style="width:50%;">
+      </center>
+    </div>
+
+    <div class="mySlides">
+      <center>
+      <img src="rockstructure.jpg" style="width:50%;">
       </center>
     </div>
 
      <div class="mySlides">
       <center>
-      <img src="plant2.jpg" style="width:50%; height: 30%;">
+      <img src="plant2.jpg" style="width:50%;">
       </center>
     </div>
 
     <div class="mySlides">
       <center>
-      <img src="fern.jpg" style="width:50%; height: 30%;">
+      <img src="fern.jpg" style="width:50%;">
       </center>
     </div>
 
@@ -316,8 +318,7 @@
                     </div>
                 </div>
             </div>
-    
-
+        </div>
 
 
 <div>
@@ -335,24 +336,7 @@
 
 
 <script>
-function openTab(evt, tabName) {
-    var i, tabcontent, tablinks;
-    
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(tabName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-
-function openModal() {
+  function openModal() {
   document.getElementById('myModal').style.display = "block";
 }
 
@@ -374,20 +358,38 @@ function currentSlide(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
+  /*var dots = document.getElementsByClassName("demo");*/
   var captionText = document.getElementById("caption");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
+  /*
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
-  }
+  }*/
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
+  /*dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;*/
 }
+function openTab(evt, tabName) {
+    var i, tabcontent, tablinks;
+    
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(tabName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
 </script>
 </body>
 </html>
