@@ -1,3 +1,5 @@
+
+
        ::-moz-selection {
             background: #de8091;
         }
@@ -47,7 +49,6 @@
         }
 
         hr {
-            background: #d9d9d9;
             border-width: 0;
             color: #d9d9d9;
             height: 1px;
