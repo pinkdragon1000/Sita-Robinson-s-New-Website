@@ -163,9 +163,10 @@
 .fa{
     letter-spacing: 20px;
 }
-        
 
-
+ * {
+  box-sizing: border-box;
+}
 .row > .column {
   padding: 0 8px 10px;
 }
