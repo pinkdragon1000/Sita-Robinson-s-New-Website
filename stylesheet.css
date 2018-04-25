@@ -331,12 +331,6 @@ img.hover-shadow {
 
 }
 
-.scale-anm {
-  transform: scale(1);
-}
-
-
-
 .tile img {
     max-width: 100%;
     width: 100%;
