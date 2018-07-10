@@ -69,8 +69,7 @@
            .fixImage .profilePicThumb {
             left: 15px;
             top: -260px;
-            /*top: -143px;*/
-            /*right: 15px;*/
+            right: 15px;
         }
         
              .fixImage {
@@ -248,10 +247,8 @@
         }
 
         .fixImage .profilePicThumb {
-               left: 15px;
-            /*top: -260px;*/
+            left: -650px;
             top: -143px;
-            /*right: 15px;*/
         }
 
         .fixNav {
