@@ -40,6 +40,18 @@
             color: #4e4848;
         }
 
+        .card {
+            background-color: white;
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            height: 360px;
+        }
+
+        .proj {
+            margin: 0px;
+        }
+
 @media all and (max-width: 843px) {
          .tab button {
              display: none;
@@ -150,7 +162,6 @@
 
 .column {
   float: left;
-  width: 40%;
 }
 
 /* The Modal (background) */
@@ -329,6 +340,9 @@
         .row > .column {
         padding: 0 8px 10px;
         }
+        .row{
+            padding-left: 110px;
+        }
 
 .row:after {
   content: "";
@@ -338,7 +352,7 @@
 
 .column {
   float: left;
-  width: 25%;
+  width: 40%;
 }
 
 /* The Modal (background) */
