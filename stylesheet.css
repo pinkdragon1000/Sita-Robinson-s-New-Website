@@ -40,19 +40,22 @@
             color: #4e4848;
         }
 
-        .card {
-            background-color: white;
-            max-width: 300px;
-            margin: auto;
-            text-align: center;
-            height: 460px;
-        }
 
         .proj {
             margin: 0px;
         }
 
+        .card{
+            background-color: white;
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+        }
+
 @media all and (max-width: 843px) {
+    .card {
+        height: 460px;
+    }
          .tab button {
              display: none;
          }
@@ -209,6 +212,9 @@
             top: 60px;
         }
     @media all and (min-width: 843px) {
+        .card{
+            height: 360px;
+        }
         body, button, input, label, select, td, textarea { 
             font-family: 'Assistant', sans-serif;
             letter-spacing: 1px;
